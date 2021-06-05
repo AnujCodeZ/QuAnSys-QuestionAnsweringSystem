@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="{{ url_for('static', filename='styles.css') }}" rel="stylesheet">
+    <title>QuAnSys</title>
+</head>
+
+<body>
+    <header>
+        <div class="project-name">QuAnSys.</div>
+    </header>
+    <p class="info">
+        Welcome to Question-Answering system using Deep Learning.
+    </p>
+    <p class="info">
+        QuAnSys finds the answer of your question from the given context and highlight it.
+    </p>
+
+    <form class="input-area" method="GET">
+        <p class="a-area">{{ answer_before }}<mark>{{ answer }}</mark>{{ answer_after }} </p>
+    </form>
+    <form class="input-area">
+        <div class="submit">
+            <button class="submit-btn" type="submit" value="submit" onclick="history.back()">Again</button>
+        </div>
+    </form>
+    <div class="footer">
+        Made by: Anuj Rana
+        <br>
+        June 2021
+    </div>
+</body>
+
+</html>
