@@ -9,4 +9,4 @@ It uses DistilBERT huggingface pretrained model to extract answer of a question 
 ### Page 2
 ![](images/answer.png)
 
-- You can visit my project at: quansys.herokuapp.com
+- You can visit my project at: https://quansys.herokuapp.com
